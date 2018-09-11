@@ -65,7 +65,7 @@ public class josephus_cll {
 		  
 		  for (x = head; x.next != x && x.previous != x; x = x.next){
 		
-			  if (i == k - 1)
+			  if (i == k)
 			  {
 				  x.previous.next = x.next;
 				  x.next.previous = x.previous;

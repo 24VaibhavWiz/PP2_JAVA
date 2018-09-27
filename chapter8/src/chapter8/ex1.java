@@ -288,6 +288,13 @@ public class ex1 {
 					found.display();
 					System.out.print("\n");
 				}
+			case ‘t’:
+				System.out.print(“Enter type 1, 2 or 3: “);
+				value = getInt();
+				theTree.traverse(value);
+				break;
+				default: 
+				System.out.println("\nInvalid Entry");
 			}
 		}
 	}

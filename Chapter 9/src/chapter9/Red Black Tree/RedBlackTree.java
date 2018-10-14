@@ -1,6 +1,5 @@
 package chapter9;
 import java.util.*;
-import javax.naming.ldap.Rdn;
 
 @SuppressWarnings("unused")
 class RBNode {

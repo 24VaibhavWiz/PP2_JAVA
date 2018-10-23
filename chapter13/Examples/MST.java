@@ -94,7 +94,7 @@ class Gr
 	}
 }
 
-public class MST_NEW {
+public class MST {
 
 	public static void main(String args[])
 	{
